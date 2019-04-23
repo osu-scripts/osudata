@@ -2,21 +2,21 @@
 Scripts for collecting and analyzing osu! game data
 
 ## Installing MongoDB
-Download and install the laterst version of <a href="https://www.mongodb.com/what-is-mongodb">MongoDB</a>.
+Download and install the laterst version of <a href="https://www.mongodb.com/what-is-mongodb" target="_blank">MongoDB</a>.
 Current version in use is MongoDB 4.0
 
 ## Populating Database
 Done through the commandline. Python 3.6+ needs to be installed also with requirements.txt
 populate a database by: `python populate.py DatabaseName`
-specify mode or modes by `-m`: 
-  `python populate.py Database -m standard`
+specify mode or modes by `-m`:<br> 
+`python populate.py Database -m standard`
 Modes: standard, taiko, catch, mania
 
-DB's
-Beatmaps
-TopPlays
-TopPlayers
-TopCountryPlayers
+Databases:<br>
+Beatmaps<br>
+TopPlays<br>
+TopPlayers<br>
+TopCountryPlayers<br>
 
 
 ## Beatmap Recommendations
