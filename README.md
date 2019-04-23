@@ -2,7 +2,7 @@
 Scripts for collecting and analyzing osu! game data
 
 ## Installing MongoDB
-Download and install the laterst version of <a href="https://www.mongodb.com/what-is-mongodb" target="_blank">MongoDB</a>.
+Download and install the latest version of <a href="https://www.mongodb.com/what-is-mongodb">MongoDB</a>.
 Current version in use is MongoDB 4.0
 
 ## Populating Database
