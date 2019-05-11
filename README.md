@@ -1,16 +1,18 @@
 # osudata
-Scripts for collecting and analyzing osu! game data
+Python scripts for collecting and analyzing osu! game data
 
 ## Installing MongoDB
-Download and install the latest version of <a href="https://www.mongodb.com/what-is-mongodb">MongoDB</a>.
-Current version in use is MongoDB 4.0
+Download and install the latest version of <a href="https://www.mongodb.com/what-is-mongodb">MongoDB</a>. Current version in use is 4.0
 
 ## Populating Database
-Done through the commandline. Python 3.6+ needs to be installed also with requirements.txt
-populate a database by: `python populate.py DatabaseName`
-specify mode or modes by `-m`:<br> 
-`python populate.py Database -m standard`
-Modes: standard, taiko, catch, mania
+Populating is done through the command line. Python 3.6+ is needed along with requirements.txt
+Once in the project directory with python and the other requirements installed use ```python populate.py Database``` to populate a database. By default data for all games modes is populated. You can choose specific game mode(s) by using ```-m ``` followed by the the name of the mode or modes. Game mode are standard, taiko, mania, and catch. 
+
+Populating TopPlays data base for osu!standard only 
+```python populate.py TopPlays -m standard```
+
+Populating Beatmaps database for taiko and catch
+```python populate.py Beatmaps -m taiko catch```
 
 Databases:<br>
 Beatmaps<br>
